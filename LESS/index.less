@@ -9,7 +9,7 @@ html{
 .main-container{/*pixel size 10px*/
     font-size:1.6rem;
     margin: 0 auto;
-    max-width:80rem;
+    max-width:100rem;
 }
 p{
     /*make sure that there is no units*/
@@ -55,6 +55,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
     p{
       font-size: 1.6rem;
       @media(max-width: 500px){
@@ -62,9 +63,9 @@ header{
        }
     }
     h1{
-      font-size: 3rem;
+      font-size: 4rem;
       margin-bottom: 1rem;
-      font-family: Arvo;
+      font-family: serif;
       @media(max-width: 500px){
         font-size: 2.5rem;
        }
@@ -81,6 +82,7 @@ header{
   display: flex;
   border-top: 0.25rem solid #006400;
   justify-content: baseline;
+  flex-wrap: wrap;
 
   @media(max-width: 500px){
    flex-direction: column;
@@ -88,11 +90,31 @@ header{
 
  section{
     margin: 1rem 1rem 1rem 0;
+    //display: flex;
+    display: inline-block;
+    .right-button{
+      text-align: center;
+      width:5%;
+      color: white;
+      background-color: black;
+      font-size: 3rem;
+      border-radius: 10px;
+    }
+    .left-button{
+      text-align: center;
+      width:5%;
+      color: white;
+      background-color: black;
+      font-size: 3rem;
+      border-radius: 10px;
+    }
     //border: 1px solid red;
-
+    p{
+      font-size: 1.7rem;
+    }
     img{
       border: 5px solid #B7B7B7;
-      max-width: 100%;
+      max-width: 60%;
       
     }
   }
@@ -102,17 +124,19 @@ header{
   border-top:0.25rem solid #006400;
   display: flex;
   flex-wrap: wrap;
+  //border: 1px solid red;
  
   @media(max-width: 500px){
     flex-direction: column;
   }
   
   .bottom-box{
-    font-size: 1.8rem;
+    //border: 1px solid blue;
     margin: 0.5rem;
-    border: 1px solid #F7F7F7;
+    display: flex;
+    justify-content: center;
     background-color: #F7F7F7;
-    width:47%;
+    width:49%;
     @media(max-width: 500px){
       width: 100%;
       display: flex;
@@ -122,16 +146,25 @@ header{
     img{
       width: 20%
     }
+    p{
+      font-size: 1.7rem;
+    }
   }
 }
 //------------------------------------------------------
 .about-container{
   display: flex;
   flex-direction: column;
-border: 1px solid blue;
+  border-top: 0.25rem solid #006400;  
+  .about-content{
+    p{
+      font-size: 1.6rem;
+    }
+  }
+
   .team-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between
   //border: 1px solid red;
   }
 }

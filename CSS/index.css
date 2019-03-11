@@ -9,7 +9,7 @@ html {
   /*pixel size 10px*/
   font-size: 1.6rem;
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 100rem;
 }
 p {
   /*make sure that there is no units*/
@@ -55,6 +55,7 @@ header .title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 header .title p {
   font-size: 1.6rem;
@@ -65,9 +66,9 @@ header .title p {
   }
 }
 header .title h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
-  font-family: Arvo;
+  font-family: serif;
 }
 @media (max-width: 500px) {
   header .title h1 {
@@ -78,6 +79,7 @@ header .title h1 {
   display: flex;
   border-top: 0.25rem solid #006400;
   justify-content: baseline;
+  flex-wrap: wrap;
 }
 @media (max-width: 500px) {
   .top-content {
@@ -86,10 +88,30 @@ header .title h1 {
 }
 .top-content section {
   margin: 1rem 1rem 1rem 0;
+  display: inline-block;
+}
+.top-content section .right-button {
+  text-align: center;
+  width: 5%;
+  color: white;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+.top-content section .left-button {
+  text-align: center;
+  width: 5%;
+  color: white;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+.top-content section p {
+  font-size: 1.7rem;
 }
 .top-content section img {
   border: 5px solid #B7B7B7;
-  max-width: 100%;
+  max-width: 60%;
 }
 .bottom-content {
   border-top: 0.25rem solid #006400;
@@ -102,11 +124,11 @@ header .title h1 {
   }
 }
 .bottom-content .bottom-box {
-  font-size: 1.8rem;
   margin: 0.5rem;
-  border: 1px solid #F7F7F7;
+  display: flex;
+  justify-content: center;
   background-color: #F7F7F7;
-  width: 47%;
+  width: 49%;
 }
 @media (max-width: 500px) {
   .bottom-content .bottom-box {
@@ -119,12 +141,18 @@ header .title h1 {
 .bottom-content .bottom-box img {
   width: 20%;
 }
+.bottom-content .bottom-box p {
+  font-size: 1.7rem;
+}
 .about-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  border-top: 0.25rem solid #006400;
+}
+.about-container .about-content p {
+  font-size: 1.6rem;
 }
 .about-container .team-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
