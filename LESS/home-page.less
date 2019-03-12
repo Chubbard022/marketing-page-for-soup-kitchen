@@ -17,9 +17,31 @@
       p{
         font-size: 2rem;
       }
+   }
+}
+
+//------------------------------------------------------
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem 0;
+
+    h4{
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 3rem;
+        text-align: center;
+        border-bottom:1.6px solid #006400;
+        width: 30%;
     }
-    
+    .reviews{
+        p{
+            font-size: 1.8rem;
+        }
     }
+}
+//------------------------------------------------------
     .bottom-content{
     border-top:0.25rem solid #006400;
     display: flex;
@@ -29,7 +51,6 @@
     @media(max-width: 500px){
       flex-direction: column;
     }
-    
     .bottom-box{
       //border: 1px solid blue;
       margin: 0.5rem 0.5rem;
@@ -68,4 +89,4 @@
         }
       }
     }
-    }
+}

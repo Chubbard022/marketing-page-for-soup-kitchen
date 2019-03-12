@@ -267,6 +267,23 @@ header .title h1 {
 .top-content section p {
   font-size: 2rem;
 }
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+.middle-content h4 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 1.6px solid #006400;
+  width: 30%;
+}
+.middle-content .reviews p {
+  font-size: 1.8rem;
+}
 .bottom-content {
   border-top: 0.25rem solid #006400;
   display: flex;
