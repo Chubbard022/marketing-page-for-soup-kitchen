@@ -159,10 +159,9 @@ header{
   .about-content{
     p{
       margin: 1rem;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
   }
-
   .team-content{
     display: flex;
     justify-content: space-between;
@@ -173,13 +172,39 @@ header{
     .team{
       //border: 1px solid blue;
       width: 33%; 
+      @media(max-width:500px){
+        width: 100%;
+        border: 1px solid black;  
+        background-color: #E2CEAF; 
+      }
     }
     img{
       width: 50%;
+      @media(max-width:500px){
+        background-color: #F7F7F7;
+      }
     }
     p{
-
+      @media(max-width:500px){
+        background-color: #573433;
+        color:white;
+        text-align: center;
+      }
     }
+    h2{
+      @media(max-width:500px){
+        background-color: black;
+        color: white;
+        padding: 0.45rem;
+      }
+    }
+  }
+}
+
+.title-about{
+  h2{
+   font-size: 4rem;
+    text-align: center;
   }
 }
 //-------------------------------------------------------------

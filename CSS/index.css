@@ -158,7 +158,7 @@ header .title h1 {
 }
 .about-container .about-content p {
   margin: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .about-container .team-content {
   display: flex;
@@ -169,8 +169,38 @@ header .title h1 {
 .about-container .team-content .team {
   width: 33%;
 }
+@media (max-width: 500px) {
+  .about-container .team-content .team {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #E2CEAF;
+  }
+}
 .about-container .team-content img {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .about-container .team-content img {
+    background-color: #F7F7F7;
+  }
+}
+@media (max-width: 500px) {
+  .about-container .team-content p {
+    background-color: #573433;
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .about-container .team-content h2 {
+    background-color: black;
+    color: white;
+    padding: 0.45rem;
+  }
+}
+.title-about h2 {
+  font-size: 4rem;
+  text-align: center;
 }
 .carousel {
   display: flex;
