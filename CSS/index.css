@@ -54,17 +54,16 @@ header nav a {
 }
 header .title {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   margin-bottom: 1rem;
+  padding: 1rem;
 }
-header .title p {
-  font-size: 1.6rem;
-}
-@media (max-width: 500px) {
-  header .title p {
-    font-size: 1.7rem;
-  }
+header .title img {
+  width: 10%;
+  background-color: #4ED961;
+  border-radius: 20%;
+  padding: 0.5rem;
 }
 header .title h1 {
   font-size: 8rem;
