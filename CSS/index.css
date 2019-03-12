@@ -132,6 +132,7 @@ table {
 html {
   font-size: 62.5%;
   background-color: #f3f0f0;
+  padding: 2rem;
 }
 .main-container {
   /*pixel size 10px*/
