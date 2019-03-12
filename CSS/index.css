@@ -182,6 +182,10 @@ header nav a {
     background-color: #006400;
   }
 }
+header nav a:hover {
+  color: #F5FFFA;
+  background-color: #006400;
+}
 header .title {
   display: flex;
   flex-direction: column-reverse;
@@ -261,7 +265,7 @@ header .title h1 {
   margin: 1rem 1rem 1rem 0;
 }
 .top-content section p {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 .bottom-content {
   border-top: 0.25rem solid #006400;
