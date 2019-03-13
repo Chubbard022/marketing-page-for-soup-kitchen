@@ -336,7 +336,7 @@ header .title h1 {
   display: flex;
   justify-content: center;
   background-color: #D5E8D1;
-  width: 49%;
+  width: 39%;
 }
 @media (max-width: 1015px) {
   .bottom-content .bottom-box {
