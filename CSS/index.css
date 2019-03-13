@@ -321,9 +321,9 @@ header .title h1 {
   }
 }
 .bottom-content {
-  border-top: 0.25rem solid #006400;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (max-width: 500px) {
   .bottom-content {
@@ -335,7 +335,7 @@ header .title h1 {
   padding: 1rem;
   display: flex;
   justify-content: center;
-  background-color: #F7F7F7;
+  background-color: #D5E8D1;
   width: 49%;
 }
 @media (max-width: 1015px) {
