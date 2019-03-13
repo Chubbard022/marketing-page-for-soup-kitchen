@@ -16,6 +16,10 @@
       margin: 1rem 1rem 1rem 0;
       p{
         font-size: 2rem;
+        @media(max-width: 500px){
+          line-height: 1.5;
+          font-size: 1.8rem; 
+        }
       }
    }
 }
@@ -27,17 +31,27 @@
     align-items: center;
     padding: 1rem;
     margin: 2rem 0;
-
     h4{
         font-family: "Lucida Console", Monaco, monospace;
         font-size: 3rem;
         text-align: center;
-        border-bottom:1.6px solid #006400;
+        border-bottom:0.2rem solid #006400;
         width: 30%;
+        
+        @media(max-width: 500px){
+          font-size: 2.8rem;
+        }
     }
     .reviews{
         p{
-            font-size: 1.8rem;
+            font-size: 1.7rem;
+            border: 4px solid #5ba75b;
+            border-radius: 5%;
+            padding: 1rem;
+
+            @media(max-width: 500px){
+                line-height: 1.5;
+            }
         }
     }
 }

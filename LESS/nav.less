@@ -44,10 +44,18 @@ header{
       padding: 1rem;
       
       img{
-        width: 10%;
+        width: 12%;
         background-color: #4ED961;
         border-radius: 20%;
         padding: 0.5rem;
+      
+        @media(max-width:900px){
+          width: 15%;
+        }
+        @media(max-width:500px){
+          width: 20%;
+          margin-bottom: 1rem;
+        }
       }
       
       h1{
@@ -55,10 +63,10 @@ header{
         margin-bottom: 1rem;
         //border: 1px solid red;
         font-family:"Trebuchet MS", Helvetica, sans-serif;
-        @media(max-width: 550px){
-          font-size: 6rem;
+        @media(max-width: 650px){
+          font-size: 5rem;
          }
-        @media(max-width: 500px){
+        @media(max-width: 525px){
           font-size: 5rem;
          }
       }

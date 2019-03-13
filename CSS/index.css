@@ -195,22 +195,33 @@ header .title {
   padding: 1rem;
 }
 header .title img {
-  width: 10%;
+  width: 12%;
   background-color: #4ED961;
   border-radius: 20%;
   padding: 0.5rem;
+}
+@media (max-width: 900px) {
+  header .title img {
+    width: 15%;
+  }
+}
+@media (max-width: 500px) {
+  header .title img {
+    width: 20%;
+    margin-bottom: 1rem;
+  }
 }
 header .title h1 {
   font-size: 8rem;
   margin-bottom: 1rem;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   header .title h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 525px) {
   header .title h1 {
     font-size: 5rem;
   }
@@ -219,6 +230,11 @@ header .title h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .carousel {
+    display: none;
+  }
 }
 .carousel .left-button {
   text-align: center;
@@ -268,6 +284,12 @@ header .title h1 {
 .top-content section p {
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .top-content section p {
+    line-height: 1.5;
+    font-size: 1.8rem;
+  }
+}
 .middle-content {
   display: flex;
   flex-direction: column;
@@ -279,11 +301,24 @@ header .title h1 {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 3rem;
   text-align: center;
-  border-bottom: 1.6px solid #006400;
+  border-bottom: 0.2rem solid #006400;
   width: 30%;
 }
+@media (max-width: 500px) {
+  .middle-content h4 {
+    font-size: 2.8rem;
+  }
+}
 .middle-content .reviews p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  border: 4px solid #5ba75b;
+  border-radius: 5%;
+  padding: 1rem;
+}
+@media (max-width: 500px) {
+  .middle-content .reviews p {
+    line-height: 1.5;
+  }
 }
 .bottom-content {
   border-top: 0.25rem solid #006400;
@@ -345,6 +380,13 @@ header .title h1 {
 .about-container .about-content p {
   margin: 1rem;
   font-size: 1.8rem;
+  line-height: 1.4;
+}
+@media (max-width: 500px) {
+  .about-container .about-content p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
 }
 .about-container .team-content {
   display: flex;
@@ -352,12 +394,18 @@ header .title h1 {
   flex-wrap: wrap;
   margin: 1rem;
 }
+@media (max-width: 685px) {
+  .about-container .team-content {
+    justify-content: space-around;
+  }
+}
 .about-container .team-content .team {
   border: 1px solid #006400;
   border-radius: 10%;
   width: 32%;
   margin: 0.4rem;
   padding: 1rem;
+  background-color: #E2CEAF;
 }
 @media (max-width: 500px) {
   .about-container .team-content .team {
@@ -376,12 +424,24 @@ header .title h1 {
     width: 35%;
   }
 }
+.about-container .team-content p {
+  background-color: #573433;
+  padding: 0.3rem;
+  text-align: center;
+  color: white;
+}
 @media (max-width: 500px) {
   .about-container .team-content p {
     background-color: #573433;
     color: white;
     text-align: center;
   }
+}
+.about-container .team-content h2 {
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .about-container .team-content h2 {
@@ -393,4 +453,10 @@ header .title h1 {
 .title-about h2 {
   font-size: 4rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .title-about h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
 }
