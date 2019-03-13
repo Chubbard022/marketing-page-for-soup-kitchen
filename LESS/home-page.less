@@ -59,11 +59,15 @@
     .bottom-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    width: 100%;
+    justify-content: space-around;
+      margin: 0 auto;
+
+
     @media(max-width: 500px){
       flex-direction: column;
     }
+
     .bottom-box{
       //border: 1px solid blue;
       margin: 0.5rem 0.5rem;
@@ -71,9 +75,9 @@
       display: flex;
       justify-content: center;
       background-color: #D5E8D1;
-      width:39%;
+      width:45%;
       @media(max-width:1015px){
-        width: 100%;
+        width: 39%;
         display: flex;
         align-items: center;
         flex-direction: column;
