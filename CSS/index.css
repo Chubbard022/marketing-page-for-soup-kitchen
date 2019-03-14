@@ -164,6 +164,8 @@ header nav {
     margin-bottom: 1.5rem;
     flex-direction: column;
     width: 100%;
+    background-color: #f3f0f0;
+    border: 1px solid #f3f0f0;
   }
 }
 header nav a {
