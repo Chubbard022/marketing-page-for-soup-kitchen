@@ -8,19 +8,19 @@ the login screen of the application.
 
 
 /////////////
-index.html///
+index.html
 /////////////
 
 in the index.html file, it contains the structure of the home page of the project.
 
 /////////////
-about.html///
+about.html
 /////////////
 
 in the about.html file, it contains the structure of the home page of the project.
 
 /////////////
-LESS file////
+LESS file
 /////////////
 
 the less file is built of seven files that create the styling to all the html files.
